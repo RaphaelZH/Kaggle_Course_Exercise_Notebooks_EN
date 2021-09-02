@@ -10,8 +10,8 @@ dependencies:
   - catboost
   - ipython
   - jupyter_contrib_nbextensions
-  - lightgbm 
-  - matplotlib                          
+  - lightgbm
+  - matplotlib
   - nbconvert
   - nltk
   - notebook
@@ -20,18 +20,21 @@ dependencies:
   - pandas
   - pip
   - plotly
+  - psycopg2
   - pymongo
   - pymysql
-  - python=3.9.6                        
-  - pytorch
   - pyspark
+  - python=3.9.6
+  - pytorch
   - scikit-learn
   - scipy
-  - seaborn              
+  - seaborn
   - setuptools
   - spacy
+  - sqlite
   - tensorflow
   - torchaudio
   - torchvision
   - xgboost
+  - yapf
 prefix: /Users/haozhang/opt/anaconda3/envs/python_3_9_6
