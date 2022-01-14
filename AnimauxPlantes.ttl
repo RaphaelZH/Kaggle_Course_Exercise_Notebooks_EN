@@ -81,25 +81,25 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mange
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mange
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mange> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mange> rdf:type owl:ObjectProperty ;
 
-                                                                             rdfs:domain <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Animal> ;
+                                                                             rdfs:domain <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Animal> ;
 
-                                                                             owl:inverseOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar> .
-
-
-
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar
-
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar> rdf:type owl:ObjectProperty .
+                                                                             owl:inverseOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mangePar> .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#partieDe
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mangePar
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#partieDe> rdf:type owl:ObjectProperty ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mangePar> rdf:type owl:ObjectProperty .
+
+
+
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#partieDe
+
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#partieDe> rdf:type owl:ObjectProperty ,
                                                                                          owl:TransitiveProperty .
 
 
@@ -113,86 +113,86 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Animal
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Animal
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Animal> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Animal> rdf:type owl:Class ;
 
-                                                                              owl:disjointWith <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante> .
-
-
-
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Arbre
-
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Arbre> rdf:type owl:Class ;
-
-                                                                             rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante> .
+                                                                              owl:disjointWith <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante> .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Branche
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Arbre
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Branche> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Arbre> rdf:type owl:Class ;
 
-                                                                               rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Arbre> ,
+                                                                             rdfs:subClassOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante> .
+
+
+
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Branche
+
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Branche> rdf:type owl:Class ;
+
+                                                                               rdfs:subClassOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Arbre> ,
                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#partieDe> ;
-                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Arbre>
+                                                                                                 owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#partieDe> ;
+                                                                                                 owl:allValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Arbre>
                                                                                                ] .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Carnivore
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Carnivore
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Carnivore> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Carnivore> rdf:type owl:Class ;
 
                                                                                  rdfs:subClassOf [ rdf:type owl:Class ;
-                                                                                                   owl:intersectionOf ( <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Animal>
+                                                                                                   owl:intersectionOf ( <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Animal>
                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                          owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mange> ;
-                                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Animal>
+                                                                                                                          owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mange> ;
+                                                                                                                          owl:someValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Animal>
                                                                                                                         ]
                                                                                                                       )
                                                                                                  ] .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Feuille
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Feuille
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Feuille> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Feuille> rdf:type owl:Class ;
 
-                                                                               rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Branche> ,
+                                                                               rdfs:subClassOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Branche> ,
                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#partieDe> ;
-                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Branche>
+                                                                                                 owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#partieDe> ;
+                                                                                                 owl:allValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Branche>
                                                                                                ] .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Girafe
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Girafe
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Girafe> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Girafe> rdf:type owl:Class ;
 
-                                                                              rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore> ,
+                                                                              rdfs:subClassOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Herbivore> ,
                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mange> ;
-                                                                                                owl:allValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Feuille>
+                                                                                                owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mange> ;
+                                                                                                owl:allValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Feuille>
                                                                                               ] .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Herbivore
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Herbivore> rdf:type owl:Class ;
 
                                                                                  rdfs:subClassOf [ rdf:type owl:Class ;
-                                                                                                   owl:intersectionOf ( <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Animal>
+                                                                                                   owl:intersectionOf ( <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Animal>
                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                          owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mange> ;
+                                                                                                                          owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mange> ;
                                                                                                                           owl:allValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                              owl:unionOf ( <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante>
+                                                                                                                                              owl:unionOf ( <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante>
                                                                                                                                                             [ rdf:type owl:Restriction ;
-                                                                                                                                                              owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#partieDe> ;
-                                                                                                                                                              owl:allValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante>
+                                                                                                                                                              owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#partieDe> ;
+                                                                                                                                                              owl:allValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante>
                                                                                                                                                             ]
                                                                                                                                                           )
                                                                                                                                             ]
@@ -202,36 +202,36 @@
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Lion
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Lion
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Lion> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Lion> rdf:type owl:Class ;
 
-                                                                            rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Carnivore> ,
+                                                                            rdfs:subClassOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Carnivore> ,
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mange> ;
-                                                                                              owl:allValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore>
+                                                                                              owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mange> ;
+                                                                                              owl:allValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Herbivore>
                                                                                             ] .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante> rdf:type owl:Class .
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante> rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#PlanteSavoureuse
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#PlanteSavoureuse
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#PlanteSavoureuse> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#PlanteSavoureuse> rdf:type owl:Class ;
 
-                                                                                        rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante> ,
+                                                                                        rdfs:subClassOf <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Plante> ,
                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar> ;
-                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore>
+                                                                                                          owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mangePar> ;
+                                                                                                          owl:someValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Herbivore>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar> ;
-                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Carnivore>
+                                                                                                          owl:onProperty <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#mangePar> ;
+                                                                                                          owl:someValuesFrom <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Carnivore>
                                                                                                         ] ;
 
                                                                                         rdfs:comment "Une PlanteSavoureuse est une Plante qui est mangÃ©e par un Herbivore et aussi par un Carnivore" .
@@ -247,44 +247,44 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Batavia
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Batavia
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Batavia> rdf:type <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Feuille> ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Batavia> rdf:type <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Feuille> ,
                                                                                         owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#LePalme
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#LePalme
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#LePalme> rdf:type <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Branche> ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#LePalme> rdf:type <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Branche> ,
                                                                                         owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Olivier
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Olivier
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Olivier> rdf:type <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Arbre> ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Olivier> rdf:type <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Arbre> ,
                                                                                         owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Rose-Marie
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Rose-Marie
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Rose-Marie> rdf:type <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#PlanteSavoureuse> ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Rose-Marie> rdf:type <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#PlanteSavoureuse> ,
                                                                                            owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Sophie
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Sophie
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Sophie> rdf:type <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Girafe> ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Sophie> rdf:type <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Girafe> ,
                                                                                        owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#LÃ©o
+###  https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#LÃ©o
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#LÃ©o> rdf:type <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Lion> ,
+<https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#LÃ©o> rdf:type <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Lion> ,
                                                                                      owl:NamedIndividual .
 
 
@@ -299,12 +299,12 @@
 
 
 [ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Batavia>
-                        <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#LePalme>
-                        <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Olivier>
-                        <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Rose-Marie>
-                        <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Sophie>
-                        <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#LÃ©o>
+  owl:distinctMembers ( <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Batavia>
+                        <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#LePalme>
+                        <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Olivier>
+                        <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Rose-Marie>
+                        <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#Sophie>
+                        <https://raw.githubusercontent.com/RaphaelZH/Study_Notes_of_Kaggle_Courses_EN/master/AnimauxPlantes#LÃ©o>
                       )
 ] .
 
