@@ -70,9 +70,8 @@
 @prefix reaction_mechanism: <http://www.theworldavatar.com/ontology/ontocape/material/substance/reaction_mechanism.owl#> .
 @prefix Ontology1318785573683: <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#> .
 @prefix REC-owl-semantics-20040210: <http://www.w3.org/TR/2004/REC-owl-semantics-20040210/#> .
-@base <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes> .
+@base <http://www.w3.org/2002/07/owl#> .
 
-<http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes> rdf:type owl:Ontology .
 
 
 #################################################################
@@ -228,11 +227,11 @@
                                                                                         rdfs:subClassOf <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Plante> ,
                                                                                                         [ rdf:type owl:Restriction ;
                                                                                                           owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar> ;
-                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Carnivore>
+                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
                                                                                                           owl:onProperty <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#mangePar> ;
-                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Herbivore>
+                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/haozhang/ontologies/2022/0/AnimauxPlantes#Carnivore>
                                                                                                         ] ;
 
                                                                                         rdfs:comment "Une PlanteSavoureuse est une Plante qui est mangÃ©e par un Herbivore et aussi par un Carnivore" .
